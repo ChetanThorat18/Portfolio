@@ -84,7 +84,7 @@ const ProjectCard = ({
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() => window.open(demo, '_blank')}
+              onClick={() => {}}
               onMouseOver={() => {
                 document
                   .querySelector('.btn-icon')

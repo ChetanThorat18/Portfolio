@@ -18,6 +18,15 @@ import {
   mongodb,
   avcoe,
   awsbadge,
+  kubernetes,
+  nextjs,
+  java,
+  express,
+  meetai,
+  resumeparser,
+  stayfinder,
+  kyc,
+  fullstack,
 } from '../assets';
 
 export const navLinks = [
@@ -56,16 +65,12 @@ const services = [
 
 const technologies = [
   {
-    name: 'JavaScript',
-    icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
+  },
+  {
+    name: 'Next JS',
+    icon: nextjs,
   },
   {
     name: 'Redux Toolkit',
@@ -80,16 +85,28 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Go',
-    icon: go,
-  },
-  {
     name: 'Python',
     icon: python,
   },
   {
     name: 'C++',
     icon: cpp,
+  },
+  // {
+  //   name: 'Java',
+  //   icon: java,
+  // },
+  {
+    name: 'Go',
+    icon: go,
+  },
+  {
+    name: 'JavaScript',
+    icon: javascript,
+  },
+  {
+    name: 'TypeScript',
+    icon: typescript,
   },
   {
     name: 'PostgreSQL',
@@ -102,6 +119,10 @@ const technologies = [
   {
     name: 'Docker',
     icon: docker,
+  },
+  {
+    name: 'Kubernetes',
+    icon: kubernetes,
   },
   {
     name: 'Git',
@@ -117,7 +138,7 @@ const experiences = [
   {
     title: 'Full Stack Developer Intern',
     company_name: 'Sumago Infotech Pvt Ltd',
-    icon: backend,
+    icon: fullstack,
     iconBg: '#f0f0f0',
     date: 'Jan 2025 - Mar 2025',
     points: [
@@ -126,22 +147,6 @@ const experiences = [
       'Designed scalable NoSQL database schema using MongoDB',
       'Led a team of 6 developers as project coordinator',
     ],
-  },
-  {
-    title: 'Bachelor of Engineering - Computer Science',
-    company_name: 'Amrutvahini College of Engineering',
-    icon: avcoe,
-    iconBg: '#f0f0f0',
-    date: '2021 - 2025',
-    points: ['CGPA: 8.64', 'Final Year Project: Blockchain-based KYC Verification Platform'],
-  },
-  {
-    title: 'AWS Certified Cloud Practitioner',
-    company_name: 'Amazon Web Services',
-    icon: awsbadge,
-    iconBg: '#f0f0f0',
-    date: 'Issued: 2024',
-    points: ['Score: 912/1000', 'Validated knowledge in cloud fundamentals'],
   },
 ];
 
@@ -156,7 +161,7 @@ const projects = [
       { name: 'tRPC', color: 'green-text-gradient' },
       { name: 'postgresql', color: 'pink-text-gradient' },
     ],
-    image: 'https://source.unsplash.com/featured/?ai,video',
+    image: meetai,
     repo: 'https://github.com/ChetanThorat18/Meet-AI',
     demo: '',
   },
@@ -170,7 +175,7 @@ const projects = [
       { name: 'nlp', color: 'green-text-gradient' },
       { name: 'machine-learning', color: 'pink-text-gradient' },
     ],
-    image: 'https://source.unsplash.com/featured/?resume,nlp',
+    image: resumeparser,
     repo: 'https://github.com/ChetanThorat18/Resume-Parser-Using-AI',
     demo: '',
   },
@@ -184,10 +189,24 @@ const projects = [
       { name: 'node.js', color: 'green-text-gradient' },
       { name: 'mongodb', color: 'pink-text-gradient' },
     ],
-    image: 'https://source.unsplash.com/featured/?realestate,booking',
+    image: stayfinder,
     repo: 'https://github.com/ChetanThorat18/StayFinder',
     demo: '',
   },
+  {
+    id: 'project-4',
+    name: 'KYC-Verification',
+    description:
+      'A blockchain-based KYC documents verification platform ensuring secure, tamper-proof identity verification using smart contracts and IPFS.',
+    tags: [
+      { name: 'blockchain', color: 'green-text-gradient' },
+      { name: 'solidity', color: 'blue-text-gradient' },
+      { name: 'ipfs', color: 'pink-text-gradient' },
+    ],
+    image: kyc,
+    repo: 'https://github.com/ChetanThorat18/KYC-Verification-Using-Blockchain',
+    demo: '',
+  }
 ];
 
 export { services, technologies, experiences, projects };
