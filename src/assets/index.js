@@ -35,7 +35,7 @@ import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import aws from './tech/aws.png';
 import cpp from './tech/cpp.png';
-import go from './tech/Go.png';
+import go from './tech/GO.png';
 import mongodb from './tech/mongodb.png';
 import python from './tech/python.png';
 import awsbadge from './tech/awsbadge.png';
