@@ -32,7 +32,13 @@ const Navbar = () => {
               } hover:text-taupe text-[21px] font-medium font-mova 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.id === 'resume' ? (
+                  <a href="/Chetan_Resume.pdf" download>
+                    {nav.title}
+                  </a>
+                ) : (
+                  <a href={`#${nav.id}`}>{nav.title}</a>
+              )}
             </li>
           ))}
         </ul>
