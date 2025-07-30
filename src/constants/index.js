@@ -144,7 +144,7 @@ const experiences = [
     company_name: 'Sumago Infotech Pvt Ltd',
     icon: fullstack,
     iconBg: '#f0f0f0',
-    date: 'Jan 2025 - Mar 2025',
+    date: 'January 2025 - June 2025',
     points: [
       'Built and deployed a Property Listing and Booking Website',
       'Implemented authentication, CRUD operations, and booking workflows',
